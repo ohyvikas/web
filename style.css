@@ -1,0 +1,108 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 7%;
+    margin-right: 20px; /* Add margin to move the image away from the text */
+}
+
+h1 {
+    margin: 0; /* Remove margin to ensure the text aligns properly */
+    justify-content: flex-end
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #ccc;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+aside h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 75%;
+    float: left;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.container,
+header,
+nav,
+aside,
+main,
+footer {
+    margin-bottom: 20px;
+}
+ 
